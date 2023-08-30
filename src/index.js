@@ -8,7 +8,7 @@ import SelfieVerification from './screens/SelfieVerification';
 import WaitingScreen from './screens/WaitingScreen'
 import FinishedScreen from "./screens/FinishedScreen";
 
-export {
+export const VERIF_SCREEN ={
     QRScan,
     IdentityVerification,
     DocumentType,
@@ -18,3 +18,4 @@ export {
     WaitingScreen,
     FinishedScreen
 }
+
